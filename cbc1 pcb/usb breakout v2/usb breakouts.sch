@@ -1,0 +1,214 @@
+EESchema Schematic File Version 4
+LIBS:usb breakouts-cache
+EELAYER 26 0
+EELAYER END
+$Descr User 7874 7874
+encoding utf-8
+Sheet 1 1
+Title "USB Daughterboard"
+Date "2018-01-03"
+Rev "1"
+Comp "MetaMechs"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Type-C:HRO-TYPE-C-31-M-12 USB1
+U 1 1 5C25A94F
+P 1350 2200
+F 0 "USB1" H 1181 2997 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 1181 2891 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12-HandSoldering" H 1350 2200 60  0001 C CNN
+F 3 "" H 1350 2200 60  0001 C CNN
+	1    1350 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 2050 1500 2050
+Wire Wire Line
+	1500 2250 1450 2250
+Wire Wire Line
+	1450 2150 1550 2150
+Wire Wire Line
+	1550 2350 1450 2350
+Wire Wire Line
+	1450 1750 1600 1750
+Wire Wire Line
+	1600 2650 1450 2650
+$Comp
+L keyboard_parts:R R_SHIELD1
+U 1 1 5C2F5F14
+P 1500 3100
+F 0 "R_SHIELD1" H 1000 3150 50  0000 L CNN
+F 1 "1M" H 1250 3050 50  0000 L CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1500 3100 60  0001 C CNN
+F 3 "" H 1500 3100 60  0000 C CNN
+	1    1500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C_SHIELD1
+U 1 1 5C2F6160
+P 1650 2950
+F 0 "C_SHIELD1" H 1742 2996 50  0000 L CNN
+F 1 "4.7n" H 1742 2905 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1650 2950 50  0001 C CNN
+F 3 "~" H 1650 2950 50  0001 C CNN
+	1    1650 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2850 1650 2850
+Wire Wire Line
+	1650 3050 1650 3350
+Wire Wire Line
+	1650 3350 1500 3350
+$Comp
+L power:GND #PWR08
+U 1 1 5C366202
+P 1450 3350
+F 0 "#PWR08" H 1450 3100 50  0001 C CNN
+F 1 "GND" V 1455 3222 50  0000 R CNN
+F 2 "" H 1450 3350 50  0001 C CNN
+F 3 "" H 1450 3350 50  0001 C CNN
+	1    1450 3350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 3350 1500 3350
+Connection ~ 1500 3350
+Wire Wire Line
+	1450 2850 1500 2850
+Connection ~ 1500 2850
+NoConn ~ 1450 1850
+NoConn ~ 1450 2450
+Wire Wire Line
+	1450 2550 1700 2550
+$Comp
+L keyboard_parts:R R_USB2
+U 1 1 5C3D65BA
+P 1950 2550
+F 0 "R_USB2" V 1850 2550 50  0000 C CNN
+F 1 "5.1K" V 1950 2550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1950 2550 60  0001 C CNN
+F 3 "" H 1950 2550 60  0000 C CNN
+	1    1950 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L keyboard_parts:R R_USB1
+U 1 1 5C3D6CD9
+P 1950 1950
+F 0 "R_USB1" V 1850 1950 50  0000 C CNN
+F 1 "5.1K" V 1950 1950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1950 1950 60  0001 C CNN
+F 3 "" H 1950 1950 60  0000 C CNN
+	1    1950 1950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1700 1950 1450 1950
+$Comp
+L power:GND #PWR03
+U 1 1 5C3EA076
+P 2200 1950
+F 0 "#PWR03" H 2200 1700 50  0001 C CNN
+F 1 "GND" V 2205 1822 50  0000 R CNN
+F 2 "" H 2200 1950 50  0001 C CNN
+F 3 "" H 2200 1950 50  0001 C CNN
+	1    2200 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5C3EA475
+P 2200 2550
+F 0 "#PWR06" H 2200 2300 50  0001 C CNN
+F 1 "GND" V 2205 2422 50  0000 R CNN
+F 2 "" H 2200 2550 50  0001 C CNN
+F 3 "" H 2200 2550 50  0001 C CNN
+	1    2200 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5C70896B
+P 1450 2750
+F 0 "#PWR07" H 1450 2500 50  0001 C CNN
+F 1 "GND" V 1455 2622 50  0000 R CNN
+F 2 "" H 1450 2750 50  0001 C CNN
+F 3 "" H 1450 2750 50  0001 C CNN
+	1    1450 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5C708FA2
+P 1450 1650
+F 0 "#PWR01" H 1450 1400 50  0001 C CNN
+F 1 "GND" V 1455 1522 50  0000 R CNN
+F 2 "" H 1450 1650 50  0001 C CNN
+F 3 "" H 1450 1650 50  0001 C CNN
+	1    1450 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5C709D48
+P 1600 1750
+F 0 "#PWR02" H 1600 1600 50  0001 C CNN
+F 1 "VCC" H 1617 1923 50  0000 C CNN
+F 2 "" H 1600 1750 50  0001 C CNN
+F 3 "" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1550 2150 1550 2350
+Wire Wire Line
+	1500 2050 1500 2250
+Wire Wire Line
+	2700 2150 1550 2150
+Connection ~ 1550 2150
+Wire Wire Line
+	2700 2250 1500 2250
+Connection ~ 1500 2250
+$Comp
+L power:GND #PWR04
+U 1 1 5C22C0C9
+P 2700 2050
+F 0 "#PWR04" H 2700 1800 50  0001 C CNN
+F 1 "GND" H 2705 1877 50  0000 C CNN
+F 2 "" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5C22C4F4
+P 2700 2350
+F 0 "#PWR05" H 2700 2200 50  0001 C CNN
+F 1 "VCC" H 2717 2523 50  0000 C CNN
+F 2 "" H 2700 2350 50  0001 C CNN
+F 3 "" H 2700 2350 50  0001 C CNN
+	1    2700 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 1750 1600 2650
+Connection ~ 1600 1750
+$Comp
+L Connector_Generic:Conn_01x04 J1
+U 1 1 5C1363D1
+P 2900 2150
+F 0 "J1" H 2980 2142 50  0000 L CNN
+F 1 "Conn_01x04" H 2980 2051 50  0000 L CNN
+F 2 "keyboard_parts:Pin_Header_Angled_1x04_Pitch2.54mm_centered" H 2900 2150 50  0001 C CNN
+F 3 "~" H 2900 2150 50  0001 C CNN
+	1    2900 2150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
