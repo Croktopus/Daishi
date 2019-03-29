@@ -16,4 +16,4 @@ Other invaluable resources:
 
 Check the BoM to find links to places where you can buy all the components for cheaper than I was able to.
 
-All I ask is that if you do build one of these (and I kind of don't think anyone actually will), please send me pics!
+All I ask is that if you do build one of these please send me pics!
