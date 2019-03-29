@@ -1,4 +1,4 @@
-#Building the PCB
+# Making a PCB
 
 If you just want to have a CBC1 PCB printed, you'll want to take the gerbers.zip file to your PCB fab of choice (I recommend JLCPCB for the price), as well as the gerbers.zip in the daughterboard directory.
 
