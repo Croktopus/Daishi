@@ -1,9 +1,5 @@
-Meta75 keyboard firmware
+CBC1 keyboard firmware
 ======================
-
-The Meta75 is a 15x5 full-grid ortholinear keyboard "manufactored" by myself, using cheap Chinese PCB fabs, aliexpress switch sellers, a 3d printer, and a whole lot of help from people on the internet.
-In particular, the base of the code for this keyboard's firmware is stolen from the xd75 firmware found here: https://github.com/qmk/qmk_firmware/tree/master/keyboards/xd75 so a big thanks to Benjamin Kesselring for all his hard work.
-This isn't intended as a commercial product or anything, so if it does come to that I'll streamline the code, but for the time being you'll find I just commented out a bunch of stuff...
 
 ## Quantum MK Firmware
 
@@ -26,6 +22,6 @@ Keymaps follow the format **__\<name\>.c__** and are stored in subdirectories un
 To build the firmware binary hex file for a specific keymap, and install it, using Teensy, just do `make` with a keymap like this:
 
 ```
-$ make meta75:[default|<name>]
+$ make CBC1:[default|<name>]
 ```
 
