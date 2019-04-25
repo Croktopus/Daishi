@@ -1,4 +1,4 @@
-#Building a Case
+# Building a Case
 
 This should just be a (relatively) quick guide on how to create a case for a Daishi, which ended up being super complex.
 
