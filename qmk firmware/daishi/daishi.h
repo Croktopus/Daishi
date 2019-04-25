@@ -1,5 +1,5 @@
-#ifndef CBC_H
-#define CBC_H
+#ifndef DAISHI_H
+#define DAISHI_H
 
 #include "quantum.h"
 

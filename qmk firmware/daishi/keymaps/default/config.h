@@ -1,4 +1,4 @@
-/* Copyright 2017 Benjamin Kesselring
+/* Copyright 2019 Crokto
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by

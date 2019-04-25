@@ -1,4 +1,4 @@
-#include "cbc.h"
+#include "daishi.h"
 
 void matrix_init_kb(void) {	
   // put your keyboard start-up code here
